@@ -1,0 +1,20 @@
+name: Simple HTML Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Code uploaded
+        run: echo "Code uploaded"
+
+      - name: Tested
+        run: echo "Tested"
+
+      - name: Deployed
+        run: echo "Deployed"
