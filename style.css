@@ -4,14 +4,5 @@ body{
 }
 
 p {
-    color: white;
-}
-
-
-p{
-    color: gray !important;
-}
-
-p{
-    color: black;
+    color: white !important;
 }
